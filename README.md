@@ -7,7 +7,7 @@ Customer churn directly impacts revenue and growth. The objective of this projec
 
 This project demonstrates an end-to-end machine learning workflow, from data analysis to interpretable modeling, with a strong focus on real-world decision-making.
 
-## Key Highlights (Recruiter Summary)
+## Key Highlights
 - Built a complete ML pipeline: EDA → Feature Engineering → Modeling → Evaluation
 - Used interpretable ML (Logistic Regression) to explain churn drivers
 - Applied statistical outlier handling and feature distribution analysis
@@ -23,10 +23,10 @@ This project demonstrates an end-to-end machine learning workflow, from data ana
 ## Dataset Overview
 - **Source:** Customer churn dataset (`Churn_prediction.csv`)
 - **Target Variable:** Churn (Yes / No)
-- **Data Size:** ~7K customer records
+- **Data Size:** ~5.5K customer records
 - **Features:**
   - *Numerical:* tenure, MonthlyCharges, TotalCharges
-  - *Categorical:* service subscriptions, contracts, payment methods
+  - *Categorical:* service subscriptions, contracts, payment methods etc
 
 ## Exploratory Data Analysis (EDA)
 Key insights generated through EDA:
@@ -70,13 +70,14 @@ Enables actionable insights such as:
 This makes the model deployable in real business environments, not just academic.
 
 ## Project Structure
-├── data/
-│ └── Churn_prediction.csv
-├── EDA.ipynb # Data analysis & insights
-├── Model.ipynb # Modeling & evaluation
-├── README.md
+  ```bash
+  ├── data/
+  │ └── Churn_prediction.csv
+  ├── EDA.ipynb # Data analysis & insights
+  ├── Model.ipynb # Modeling & evaluation
+  ├── README.md
+  ```
 
-text
 
 ## How to Run
 1. Install dependencies:
